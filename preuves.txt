@@ -1,0 +1,22 @@
+Cas Awa avec budget 50000 :
+>PS C:\Users\DELL\Documents\depart> node depenses.js
+Rapport de dépenses à compléter pour Awa.
+budget : 50000 FCFA
+transport : 12500 FCFA
+alimentation : 18300 FCFA
+loisirs : 7500 FCFA
+total : 38300 FCFA
+budget restant : 11700 FCFA
+budget respecté : true
+
+Variation budget 30000 :
+PS C:\Users\DELL\Documents\depart> node depenses.js
+Rapport de dépenses à compléter pour Awa.
+budget : 30000 FCFA
+transport : 12500 FCFA
+alimentation : 18300 FCFA
+loisirs : 7500 FCFA
+total : 38300 FCFA
+budget restant : -8300 FCFA
+budget respecté : false
+
