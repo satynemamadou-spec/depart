@@ -1,8 +1,9 @@
-const GTA6 = 50000;
-let epargne =  0;
-let i = 0;
-while ( epargne < GTA6) {
-    epargne+=4000;
-    i++;
+let gta = 50000;
+let epargnesemaine = 4000;
+let epargne = 0;
+let semaine = 0;
+while (gta > epargne ) {
+    epargne = epargne + epargnesemaine;
+    semaine = semaine + 1;
 }
-console.log(`vous avez epargner la somme de ${epargne+4000}  FCFA en ${i} semaines`);
+console.log("nombre de semaine:" + semaine);
